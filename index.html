@@ -10,12 +10,56 @@
 </head>
 <body>
     
+    <header class="container-fluid">
+        <div class="row flex-row">
+            <div class="col-4">
+                <p>Health: <span id="healthBar">100</span></p>
+            </div>
+            <div class="col-4">
+                <p>Hits: <span id="timesHit"></span></p>
+            </div>
+            <div class="col-4">
+                <form action="" id="form">
+                    <input type="text" name="targetName" id="targetName" placeholder="Who do you want to slap?">
+                    <button type="submit" class="btn btn-small btn-secondary" onclick="changeName(event)">Submit</button>
+                </form>
+            </div>
+        </div>
+    </header>
+
+    <main class="container-fluid">
+        <div class="row flex-column">
+            <div class="col-6">
+                <p>Name: <span id="displayName"></span></p>
+            </div>
+            <div class="col-6">
+                <img src="https://placebear.com/200/200" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <button class="btn btn-large btn-secondary" onclick="slap()">Slap!</button>
+            </div>
+            <div class="col-4">
+                <button class="btn btn-large btn-secondary" onclick="punch()">Punch!</button>
+            </div>
+            <div class="col-4">
+                <button class="btn btn-large btn-secondary" onclick="stab()">Stab!</button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <p>Made by: Ryan Carpenter</p>
+            </div>
+        </div>
+    </footer>
 
 
 
 
-
-    
     <script src="app.js"></script>
     <!-- JS, Popper.js, and jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
