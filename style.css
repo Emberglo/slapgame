@@ -2,21 +2,39 @@ body {
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
+	background-color: #a1cca5;
 }
 header {
 	height: fit-content;
+	background-color: #709775;
+	color: #e8f3e9;
 }
 main {
 	flex-grow: 1;
 }
 footer {
 	height: fit-content;
+	background-color: #709775;
+	color: #e8f3e9;
 }
 
 p {
 	margin: 0;
+	font-size: 1.5em;
 }
 
 form {
 	width: fit-content;
+}
+
+.btn {
+	background: #537057;
+}
+
+.btn:hover {
+	background: #415d43;
+}
+
+.by {
+	font-size: 1em;
 }

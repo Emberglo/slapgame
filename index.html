@@ -10,7 +10,7 @@
 </head>
 <body>
     
-    <header class="container-fluid bg-dark text-light">
+    <header class="container-fluid">
         <div class="row d-flex align-items-center font-weight-bold">
             <div class="col-4 py-3 d-flex justify-content-center align-items-center">
                 <p>Health: <span id="healthBar">100</span></p>
@@ -20,8 +20,8 @@
             </div>
             <div class="col-4 py-3 d-flex justify-content-center align-items-center">
                 <form action="" id="form" class="">
-                    <input type="text" name="targetName" id="targetName" placeholder="Who to slap?">
-                    <button type="submit" class="btn btn-sm btn-secondary mb-1" onclick="changeName(event)">Submit</button>
+                    <input type="text" name="targetName" id="targetName" placeholder="Who to fight?">
+                    <button type="submit" class="btn btn-sm text-light mb-1" onclick="changeName(event)">Submit</button>
                 </form>
             </div>
         </div>
@@ -30,21 +30,21 @@
     <main class="container-fluid">
         <div class="row flex-column justify-content-center align-items-center ">
             <div class="col-6 mt-3 py-3 d-flex justify-content-center align-items-center">
-                <h3><span id="displayName">Bear</span></h3>
+                <h3><span id="displayName">Fight The Bear</span></h3>
             </div>
             <div class="col-6 pb-5 d-flex justify-content-center align-items-center">
-                <img src="https://placebear.com/600/450" alt="" class="img-fluid">
+                <img src="https://placebear.com/500/350" alt="" class="img-fluid">
             </div>
         </div>
         <div class="row justify-content-center">
             <div class="col-2 d-flex justify-content-center align-items-center">
-                <button class="btn btn-lg btn-secondary" onclick="slap()">Slap!</button>
+                <button class="btn btn-lg text-light" onclick="slap()">Slap!</button>
             </div>
             <div class="col-2 d-flex justify-content-center align-items-center">
-                <button class="btn btn-lg btn-secondary" onclick="punch()">Punch!</button>
+                <button class="btn btn-lg text-light" onclick="punch()">Punch!</button>
             </div>
             <div class="col-2 d-flex justify-content-center align-items-center">
-                <button class="btn btn-lg btn-secondary" onclick="stab()">Stab!</button>
+                <button class="btn btn-lg text-light" onclick="stab()">Stab!</button>
             </div>
         </div>
     </main>
@@ -52,7 +52,7 @@
     <footer class="container-fluid">
         <div class="row">
             <div class="col">
-                <p>Made by: Ryan Carpenter</p>
+                <p class="by">Made by: Ryan Carpenter</p>
             </div>
         </div>
     </footer>
