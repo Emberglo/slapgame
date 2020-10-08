@@ -12,3 +12,11 @@ main {
 footer {
 	height: fit-content;
 }
+
+p {
+	margin: 0;
+}
+
+form {
+	width: fit-content;
+}
